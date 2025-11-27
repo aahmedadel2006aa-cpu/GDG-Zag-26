@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task</title>
+</head>
+<body>
+        <form>
+
+            <fieldset>
+                <legend> Comments </legend> 
+                <label> Your Comments (Textarea):</label>
+                <textarea required ></textarea>
+                
+                
+                
+            </fieldset>
+        <hr>
+            <div>
+                <fieldset>
+                <legend> File Upload</legend>
+                <label for="file"> Upload a file :</label>
+                <input id="file" type="file">
+                </fieldset>
+            </div>
+        <hr>
+            
+                <fieldset>
+                    <legend> Spacialized Text Inputs </legend>
+                    <div>
+                    <label for="tx"> Search this site </label>
+                    <input id="tx" type="text"> 
+                    </div>
+                    
+                <br>
+                    
+                    <div>
+                    <label for="url"> Your Website URL </label>
+                    <input id="url" type="url" placeholder="https://example.com">
+                    </div>
+                </fieldset>
+        <hr>
+                <fieldset>
+                    <legend> Data & Time </legend>
+                    <div>
+                    <label for="data"> Data </label>
+                    <input id="data" type="date">
+                    </div>
+                <br>
+                    <div>
+                        <label for="mon"> Month </label>
+                        <input id="mon" type="month">
+                    </div>
+                <br>
+                    <div>
+                        <label for="time"> Time </label>
+                        <input id="time" type="time">
+                    </div>
+                </fieldset>
+
+                <hr>
+                <br>
+                
+
+
+
+                <fieldset>
+                    <legend> Datalist(suggestion)</legend>
+                    <label> Choose a Bower(with suggestion) </label>
+                <input list="languge" name="lang">
+                <datalist id="languge">
+
+                    <option value="c">
+                    <option value="java">
+                    <option value="c++">
+                    <option value="c#">
+                </datalist>
+                </fieldset>
+<hr>
+<br>
+
+
+                <div>
+                    <button type="submit"> Submit Form </button>
+                    <button type="reset"> Clear From </button>
+                </div>
+        </form>             
+</body>
+</html>

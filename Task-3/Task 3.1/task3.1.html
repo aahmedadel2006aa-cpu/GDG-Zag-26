@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task3.1</title>
+</head>
+<body>
+    
+
+            <h1> Basic HTML Form Elements </h1>
+
+            <form>
+
+                <div>
+                    <fieldset>
+                    <legend> Person Information </legend>
+                    <label for="txt"> Name(Text):</label>
+                    <input id="txt" type="text" >
+                </fieldset>
+                </div>
+
+
+                <fieldset>
+                    <legend> Contact & Security</legend>
+                    <div>
+                        <label for="em"> Email:</label>
+                        <input id="em" type="email">
+                    </div>
+                <br>
+                    <div>
+                        <label for="pass"> Password: </label>
+                        <input id="pass" type="password">
+                    </div>
+                </fieldset>
+
+
+                <fieldset>
+                    <legend> Preference </legend>
+                    <label for="color"> Favorite color </label>
+                    <input id="color" type="color">
+                </fieldset>
+
+
+                <fieldset>
+                    <legend> Range & Option </legend>
+                    <div>
+                    <label for="range" > volume(Range 0-100)</label>
+                    <input id="range" type="range" min="0" max="100" value="50" step="1">
+                    </div>
+                    
+
+                    <h4> select your favorite pet:</h4>
+                    <div>
+                        <input id="1" type="radio" name="mcq" > 
+                        <label for="1"> dog </label>
+                    </div>
+
+
+                    <div>
+                        <input id="2" type="radio" name="mcq">
+                        <label for="2"> cat </label>
+                    </div>
+
+
+                    <div>
+                        <input id="3" type="radio" name="mcq">
+                        <label for="3"> bird </label>
+                    </div>
+
+
+                    <h4> interests (check all that apply):</h4>
+                    <div>
+                        <input id="fir" type="checkbox">
+                        <label for="fir"> Coding </label>
+                    </div>
+
+
+                    <div>
+                        <input id="sec" type="checkbox">
+                        <label for="sec"> Music </label>
+                    </div>
+
+
+                    <div>
+                        <input id="thi" type="checkbox">
+                        <label for="thi"> Travel </label>
+                    </div>
+
+                </fieldset>
+
+
+                <fieldset>
+                    <legend> Selection </legend>
+                    <label for="sel"> Choose a country </label>
+                    <select name="country" id="sel">
+                        <option selected value="UK"> United Kingdom </option>
+                        <option value="egy"> Egypt </option>
+                        <option value="mor"> morocco </option>
+                    </select>
+                </fieldset>
+            </form>
+</body>                                  
+</html>
