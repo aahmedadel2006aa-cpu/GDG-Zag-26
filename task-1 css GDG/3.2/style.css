@@ -1,0 +1,45 @@
+.assign-one {
+  text-shadow: 1px 1px 0 #f44336;
+  font-size: 40px;
+}
+.assign-two {
+  text-shadow: 1px 1px 0 #2196f3, 2px 2px 0 #e91e63;
+  font-size: 40px;
+}
+.assign-three {
+  text-shadow: 1px 1px 0 #673ab7, 2px 2px 0 #009688, 3px 3px 0 #ff9800;
+  font-size: 40px;
+}
+
+
+
+.one {
+  text-transform: uppercase;
+}
+.two {
+  text-transform: capitalize;
+}
+.three {
+  text-transform: lowercase;
+}
+
+
+.on {
+  word-spacing: normal;
+}
+.tw {
+  word-spacing: 10px;
+}
+.th {
+  word-spacing: -5px;
+}
+
+
+
+.box {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  background: green;
+  box-shadow: 0px 20px 2px 0px rgba(40, 152, 40, 0.636);
+}

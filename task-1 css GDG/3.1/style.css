@@ -1,0 +1,72 @@
+
+            .a{
+                color: white;
+                background: blue;
+                text-align: center;
+}
+
+
+         
+            .b{
+                background: rgb(255, 255, 255);
+                color: blue;
+                width: 1200px;
+                height: 200px;
+                overflow: auto;
+                border: solid 2px;
+                margin: 10px 120px 40px 125px ;
+            }
+            .b > h2{
+
+                border: 1px solid ;
+            }
+
+
+
+            .c > h2{
+                color: blue;
+            }
+
+
+
+.class {
+    
+    width: 150px;            /* عرض الصندوق */
+    height: 150px;
+    border: double 2px  #324de8c0;
+    padding: 10px;
+    margin: 10px;
+    float: left;             /* أهم خطوة: يخليهم جنب بعض */
+    overflow: hidden;
+}
+
+.class h3 {
+    text-align: center;      /* العنوان في النص */
+    margin-bottom: 10px;
+}
+
+.class > h3{
+    color: blue;
+}
+
+
+
+
+.box > h3{
+color: blue;}
+
+            .class {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #f3f3f3;
+}
+
+.box {
+
+    border: 3px dotted hsla(254, 98%, 51%, 0.463);  
+    padding: 200px;
+    width: 800px;  
+    margin: 20px auto;       
+    background: white;
+}
+
